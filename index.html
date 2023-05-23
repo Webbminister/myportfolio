@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Damilare-MyPortfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b673a372e5.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -13,15 +14,144 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Resume</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <!-- About the authur -->
+    <section class="about">
+        <div class="about_container">
+            <div class="social_media">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+               <a href=""><i class="fa-brands fa-facebook"></i></a> 
+               <a href=""><i class="fa-brands fa-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                
+            </div>
+            <div class="about_description">
+                <div class="author_name">Bamigbade Damilare F.</div>
+                <p>I am a Graphic designer and a web developer with some years of experience in this field</p>
+                <button class="btn">My Portfolio</button>
+              <a href=""><i class="fa-brands fa-youtube"></i></a> 
+            </div>
+        </div>
+    </section>
+    <!-- These are the services i render -->
+    <section class="work">
+        <div class="work_box">
+            <h6>SERVICES</h6>
+            <h3>My Services</h3>
+            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit luctus. Mauris varius arcu in orci iaculis</P>
+        </div>
+
+        <div class="boxes">
+            <div class="box">
+                <i class="fa-brands fa-github"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit luctus. Mauris varius arcu in orci iaculis</p>
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-image"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit luctus. Mauris varius arcu in orci iaculis</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit luctus. Mauris varius arcu in orci iaculis</p>
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-image"></i>
+                <h2>Photograaphy</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit luctus. Mauris varius arcu in orci iaculis</p>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-apple"></i>
+                <h2>App Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit luctus. Mauris varius arcu in orci iaculis</p>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-github"></i>
+                <h2>Digital Marketing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit luctus. Mauris varius arcu in orci iaculis</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- This where you can find my academic information -->
+    <section class="resume">
+        <h4>CARREER OBJECTIVE</h4>
+        <P>Aim to be placed in challenging organization that gives me scope to update my knowledge & skills in accordance with the latest trends and be a part of team that dynamically work tawards growth of the organisation</P>
+        <div class="resume_table">
+            <h4>EDUCATION BACKGROUND</h4>
+            <table>
+                <tr>
+                    <th>School</th>
+                    <th>Cerificate</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>School 1</td>
+                    <td>Primary School Certificate</td>
+                    <td>1999 - 2003</td>
+                </tr>
+                <tr>
+                    <td>School 2</td>
+                    <td>Senior Secondary School Certificate</td>
+                    <td>2004 - 2010</td>
+                </tr>
+                <tr>
+                    <td>School 3</td>
+                    <td>Barchelor of Science</td>
+                    <td>2011 - 2015</td>
+                </tr>
+            </table>
+        </div> 
+        <div class="skills">
+            <h4>Skills</h4>
+            <ol>
+                <li>JAVASCRIPT</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>REACT</li>
+                <li>NODE JS</li>
+
+            </ol>
+        </div>
+    </section>
+<!-- my contact section -->
+    <section class="contact">
+        <form action="">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="nigeria">Nigeria</option>
+              <option value="benin">Benin Republic</option>
+              <option value="togo">Togo</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+
+    </section>
     <script src="index.js"></script>
 </body>
+<!-- further information inside the footer -->
+<footer>
+   <p> &copy Webbminister All Right Reserved 2023 </p>
+</footer>
 </html>
