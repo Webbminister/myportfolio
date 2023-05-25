@@ -52,16 +52,20 @@ nav ul li a:hover{
 }
 /* starting with the about section */
 .container{
+    position: relative;
+    top: 100px;
     width: 50%;
+    border-radius: 10px;
     overflow: hidden;
     margin: auto;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 15px;
-    color: #fff;
+    color: #000;
 }
 .about_description{
     position: relative;
-    top: 100px;
+    top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 642px;
     height: 400px;
     padding: 15px;
@@ -75,6 +79,7 @@ nav ul li a:hover{
 width: 450px;
 padding: 20px;
 top: 50px;
+color: #fff;
 }
 
 .about_description img{
@@ -129,4 +134,58 @@ top: 50px;
 }
 .about_captions  a i:hover{
  color: #f50808;
+}
+/* displaying what i do */
+.work{
+    position: relative;
+    top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 642px;
+    height: 600px;
+    padding: 15px;
+    background-color: rgb(223, 221, 221);
+    border-radius: 10px; 
+}
+.work_box{
+    position: relative;
+    text-align: center;
+    width: 30rem;
+    left:13rem;
+    top:-2rem;
+    padding: 6px;
+
+}
+.work_box h2{
+    justify-content: center;
+    color: #f5540a;
+} 
+.work_box p{
+    color: #3b3b3b;
+} 
+.boxes{
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    display: block;
+}
+.boxes .box{
+    position: relative;
+    left:-7px;
+    top: -40px;
+    float: left;
+    width: 27% ;
+    text-align: center;
+    background-color: #3b3b3b;
+    height: 180px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+.boxes .box i{
+    color: #f5540a;
+    font-size: 20px;
+}
+.boxes .box p{
+    font-size: 15px;
 }
