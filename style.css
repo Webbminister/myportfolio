@@ -61,6 +61,7 @@ nav ul li a:hover{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 15px;
     color: #000;
+    height: 100%;
 }
 .about_description{
     position: relative;
@@ -260,3 +261,45 @@ table {
     color:#fff;
     padding: 10px;
 }
+.contact{
+    position: relative;
+    top: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 642px;
+    height: 640px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact_header h4{
+    text-align: center;
+    background-color: #3b3b3b;
+    height: 50px;
+    padding-top: 15px;
+    color: #f5f7fa;
+  }
