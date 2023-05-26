@@ -182,10 +182,81 @@ color: #fff;
     line-height: 20px;
     border-radius: 10px;
 }
+.boxes .box:hover{
+    background-color: #fff;
+    color: #3b3b3b;
+}
 .boxes .box i{
     color: #f5540a;
     font-size: 20px;
 }
 .boxes .box p{
     font-size: 15px;
+    line-height: 15px;
+}
+audio{
+    position: relative;
+    top: 58px;
+    z-index: 5;
+    left: 20px;
+    
+}
+/* education background section */
+.resume{
+    position: relative;
+    top: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 642px;
+    height: 640px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+}
+.resume_header{
+    text-align: center;
+}
+.resume_header h4{
+    color: #f5540a;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #242323;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #000000;
+    color: #fff;
+  }
+  .resume_table h4{
+    text-align: center;
+    background-color: #3b3b3b;
+    height: 50px;
+    padding-top: 15px;
+    color: #f5f7fa;
+  }
+.skills h4{
+    text-align: center;
+    color: #f5540a;
+}
+  .skills ul{
+    display: block;
+  }
+  .skills ul li{
+    position: relative;
+    float: left;
+    top: -10px;
+    padding: 10px;
+    list-style: none;
+}
+.skills ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px;
 }
